@@ -1,8 +1,8 @@
 <?php
 // File paths
-define('PHPBB_ABS_PATH',     $_SERVER['DOCUMENT_ROOT'] . '/forum');
+define('PHPBB_ABS_PATH',     '/home/puyonexus/apps/forum/phpbb/phpBB');
 define('PHPBB_PATH',         '/forum');
-define('MEDIAWIKI_ABS_PATH', $_SERVER['DOCUMENT_ROOT'] . '/mediawiki');
+define('MEDIAWIKI_ABS_PATH', '/home/puyonexus/apps/wiki/mediawiki');
 define('MEDIAWIKI_PATH',     '/wiki');
 define('MEDIAWIKI_LIB_PATH', '/mediawiki');
 

@@ -62,7 +62,7 @@ if ($limit === false || $limit < 0 || $limit > 10)
 }
 
 // File paths
-define('PHPBB_ABS_PATH', $_SERVER['DOCUMENT_ROOT'] . '/forum');
+define('PHPBB_ABS_PATH', '/home/puyonexus/apps/forum/phpbb/phpBB');
 define('PHPBB_PATH',     '/forum');
 
 // Initalize phpbb session

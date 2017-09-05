@@ -45,7 +45,7 @@ if ($number === false) die;
 if ($number < 0 || $number > 10) die;
 
 // File paths
-define('PHPBB_ABS_PATH',     $_SERVER['DOCUMENT_ROOT'] . '/forum');
+define('PHPBB_ABS_PATH',     '/home/puyonexus/apps/forum/phpbb/phpBB');
 define('PHPBB_PATH',         '/forum');
 
 // Initalize phpbb session
