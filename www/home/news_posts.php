@@ -9,7 +9,7 @@ function get_recent_posts($forums, $limit = 5)
 	global $auth, $db, $phpEx, $phpbb_content_visibility;
 	
 	$urls = [
-		'topic'  => generate_board_url() . '/viewtopic.' . $phpEx . '?f=%s&amp;t=%s',
+		'topic'  => '/forum/viewtopic.' . $phpEx . '?f=%s&amp;t=%s',
 	];
 	
 	// Build & execute the query
