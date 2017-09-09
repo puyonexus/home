@@ -9,7 +9,7 @@ function get_recent_topics($number = 5)
 	global $auth, $db, $phpEx;
 	
 	// The topic URL and last post URL
-	$topic_url = generate_board_url() . '/viewtopic.' . $phpEx . '?f=%s&amp;t=%s';
+	$topic_url = '/forum/viewtopic.' . $phpEx . '?f=%s&amp;t=%s';
 	$last_post_url = $topic_url . '&amp;p=%s#p%3$s';
 	
 	// Query the forum
