@@ -9,9 +9,9 @@ function get_recent_topics($limit = 5)
 	global $auth, $db, $user, $phpEx;
 	
 	$urls = [
-		'topic'     => generate_board_url() . '/viewtopic.' . $phpEx . '?f=%s&amp;t=%s',
-		'last_post' => generate_board_url() . '/viewtopic.' . $phpEx . '?f=%s&amp;t=%s&amp;p=%s#p%3$s',
-		'profile'   => generate_board_url() . '/memberlist.php?mode=viewprofile&amp;u=%s',
+		'topic'     => '/forum/viewtopic.' . $phpEx . '?f=%s&amp;t=%s',
+		'last_post' => '/forum/viewtopic.' . $phpEx . '?f=%s&amp;t=%s&amp;p=%s#p%3$s',
+		'profile'   => '/forum/memberlist.php?mode=viewprofile&amp;u=%s',
 	];
 	
 	// Build & execute the query
