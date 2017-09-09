@@ -46,10 +46,10 @@ function forum_recent_topics($num_of_topics = 1)
 	$topics  = array();
 	$forums = array_unique(array_keys($auth->acl_getf('f_read', true)));
 	$urls = array(
-		'forum'     => generate_board_url() . '/viewforum.' . $phpEx . '?f=%s',
-		'topic'     => generate_board_url() . '/viewtopic.' . $phpEx . '?f=%s&amp;t=%s',
-		'last_post' => generate_board_url() . '/viewtopic.' . $phpEx . '?f=%s&amp;t=%s&amp;p=%s#p%3$s',
-		'profile'   => generate_board_url() . '/memberlist.php?mode=viewprofile&amp;u=%s',
+		'forum'     => '/forum/viewforum.' . $phpEx . '?f=%s',
+		'topic'     => '/forum/viewtopic.' . $phpEx . '?f=%s&amp;t=%s',
+		'last_post' => '/forum/viewtopic.' . $phpEx . '?f=%s&amp;t=%s&amp;p=%s#p%3$s',
+		'profile'   => '/forum/memberlist.php?mode=viewprofile&amp;u=%s',
 	);
 
 	$sql = 'SELECT t.topic_id, t.forum_id, t.topic_title, t.topic_last_post_id, t.topic_last_poster_id, t.topic_last_poster_name, t.topic_last_post_time,
