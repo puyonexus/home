@@ -122,7 +122,7 @@
 					<section>
 						<h3>Links</h3>
 						<ul>
-							<li><a href="http://puyovs.net" target="_blank">Puyo VS</a></li>
+							<li><a href="https://puyovs.com" target="_blank">Puyo VS</a></li>
 							<li><a href="https://www.bayoen.fr/" target="_blank">Bayoen!</a></li>
 							<li><a href="http://www.seganerds.com/" target="_blank">SEGA Nerds</a></li>
 							<li><a href="http://segabits.com/" target="_blank">SEGAbits</a></li>
