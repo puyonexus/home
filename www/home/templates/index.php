@@ -47,7 +47,7 @@
 						<li><a href="https://twitter.com/puyonexus" target="_blank"><i class="icon icon-twitter" title="Twitter" aria-hidden="true"></i></a></li>
 						<li><a href="https://www.youtube.com/user/puyonexus" target="_blank"><i class="icon icon-youtube-play" title="YouTube" aria-hidden="true"></i></a></li>
 						<li><a href="https://www.twitch.tv/puyonexus" target="_blank"><i class="icon icon-twitch" title="Twitch" aria-hidden="true"></i></a></li>
-						<li><a href="https://discord.gg/0k41S8ARwvY2iTIQ" target="_blank"><i class="icon icon-discord" title="Discord" aria-hidden="true"></i></a></li>
+						<li><a href="https://discord.gg/Br4KqbR" target="_blank"><i class="icon icon-discord" title="Discord" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
 			</div>
