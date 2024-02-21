@@ -67,7 +67,6 @@ function format_activity_date($date)
 
 // Fetch news posts and forum activity
 $news_posts = json_decode(file_get_contents('http://puyonexus.com/home/news_posts.php?limit=5'));
-$forum_activity = json_decode(file_get_contents('http://puyonexus.com/home/forum_activity.php?limit=5'));
 
 // Fetch wiki activity
 // Mediawiki already has an api for this, so we will just call it directly

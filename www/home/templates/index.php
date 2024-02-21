@@ -76,31 +76,6 @@
 						<img src="assets/images/home/galaxy.png" alt="">
 						<p>Home to all mean beans</p>
 					</div>
-					<section id="forum-activity">
-					<h3>Forum Activity</h3>
-						<?php if (!empty($forum_activity)) : ?>
-							<ul>
-								<?php foreach ($forum_activity as $topic) : ?>
-									<li>
-										<span class="user-avatar">
-											<?php if ($topic->user_avatar !== '') : ?>
-												<span class="user-avatar-image" style="background-image: url('<?= $topic->user_avatar ?>');"></span>
-											<?php else : ?>
-												<span class="user-avatar-image default-avatar"></span>
-											<?php endif; ?>
-										</span>
-										<span class="post-title"><a href="<?= $topic->topic_link ?>"><?= $topic->topic_title ?></a></span>
-										<ul class="post-meta">
-											<li class="post-author"><a href="<?= $topic->user_link ?>"><?= $topic->topic_last_poster_name ?></a></li>
-											<li class="post-date"><?= format_activity_date($topic->topic_last_post_time) ?><a href="<?= $topic->last_post_link ?>" class="last-comment" title="Go to last post"><i class="icon icon-external-link"></i></a></li>
-										</ul>
-									</li>
-								<?php endforeach; ?>
-							</ul>
-						<?php else : ?>
-							<p>No recent activity</p>
-						<?php endif; ?>
-					</section>
 					<section id="wiki-activity">
 						<h3>Wiki Activity</h3>
 						<?php if (!empty($wiki_activity) && !empty($wiki_activity->query->recentchanges)) : ?>
@@ -138,7 +113,7 @@
 	</main>
 	<footer id="pn-footer">
 		<div class="container">
-			<p>&copy; 2007-2017 Puyo Nexus</p>
+			<p>&copy; 2007-2024 Puyo Nexus</p>
 		</div>
 	</footer>
 	
